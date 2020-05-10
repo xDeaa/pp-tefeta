@@ -30,7 +30,7 @@ Hi, here are some rules to carry out this story oav;
 
 > Don't forget, there is no useless question :-)
 
-* You **MUST** return the project on Monday May, 18 at 12:00 pm by sending an MP on slack with the link of your github repo.
+You **MUST** return the project on Monday May, 18 at 12:00 pm by sending an MP on slack with the link of your github repo.<br />
 
 Your repository **MUST** contain the totality of your source files, but no useless files (node_modules, temp files, log files,...).
 
