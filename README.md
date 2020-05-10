@@ -72,7 +72,7 @@ $ cat -e ./data/maps/rect.01.map
 
 I know you love that, well you can in bulk:
 
-* Handle not squared map like []()
+* Handle not squared map like [this oval map](./data/maps/oval.01.map)
 * Add any graphical version
 
 ## <a name='credits'>🐵 Credits</a>
