@@ -77,9 +77,9 @@ After you just solved the problem, you challenge is to have the best algorithm o
 We'll check the times of your algo and you'll get points depending of your position ! :)
 
 ```sh
-❯ ./tefeta.ts ./data/maps/rect.07.map | times                                                                                 
-0m0.13s 0m0.14s
-0m0.10s 0m0.21s
+❯ /usr/bin/time ./tefeta.ts ./data/maps/rect.07.map              
+...
+0.31 real         0.03 user         0.25 sys
 ```
 
 > The time will be calculate after Docket environment setup of course ;)
