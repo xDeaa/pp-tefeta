@@ -68,6 +68,22 @@ $ cat -e ./data/maps/rect.01.map
 *********2***$
 ```
 
+## <a name='challenge'>🦁 Challenge</a>
+
+### = Algorithm
+
+After you just solved the problem, you challenge is to have the best algorithm of you class !<br />
+
+We'll check the times of your algo and you'll get points depending of your position ! :)
+
+```sh
+❯ ./tefeta.ts ./data/maps/rect.07.map | times                                                                                 
+0m0.13s 0m0.14s
+0m0.10s 0m0.21s
+```
+
+> The time will be calculate after Docket environment setup of course ;)
+
 ## <a name='bonus'>🦄 Bonus</a>
 
 I know you love that, well you can in bulk:
