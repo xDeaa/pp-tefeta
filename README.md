@@ -20,6 +20,10 @@ First, you have to build the image using: `docker build -t pp-tefeta .`
 
 After, run it with: `docker run pp-tefeta ./data/maps/rect.01.map`
 
+<img alt="Demo complete" src="./demo-complete.gif" width="500">
+<img alt="Demo" src="./demo.gif" width="500">
+
+
 ## <a name='overview'>🦊 Rules</a>
 
 Hi, here are some rules to carry out this story oav;

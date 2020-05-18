@@ -111,263 +111,103 @@ config:
   
 # Records, feel free to edit them
 records:
-  - delay: 449
+  - delay: 455
     content: "N/A: version \"N/A -> N/A\" is not yet installed.\r\n\r\nYou need to run \"nvm install N/A\" to install it before using it.\r\n\e[?1034hMBP-de-Andrea:pp-tefeta andreaserrano$ "
-  - delay: 824
+  - delay: 679
     content: d
-  - delay: 201
+  - delay: 188
     content: o
-  - delay: 262
+  - delay: 267
     content: c
-  - delay: 309
+  - delay: 274
     content: k
   - delay: 240
     content: e
-  - delay: 235
+  - delay: 240
     content: r
-  - delay: 125
+  - delay: 143
     content: ' '
-  - delay: 251
-    content: b
-  - delay: 209
+  - delay: 520
+    content: r
+  - delay: 220
     content: u
-  - delay: 175
-    content: i
-  - delay: 201
-    content: l
-  - delay: 231
-    content: d
-  - delay: 112
-    content: ' '
-  - delay: 309
-    content: '-'
-  - delay: 239
-    content: t
-  - delay: 167
-    content: ' '
-  - delay: 1108
-    content: p
-  - delay: 301
-    content: p
-  - delay: 570
-    content: '-'
-  - delay: 253
-    content: t
-  - delay: 205
-    content: e
-  - delay: 187
-    content: f
-  - delay: 185
-    content: e
-  - delay: 255
-    content: t
-  - delay: 175
-    content: a
-  - delay: 212
-    content: ' '
-  - delay: 451
-    content: .
-  - delay: 239
-    content: "\r\n"
-  - delay: 443
-    content: "Sending build context to Docker daemon  557.1kB\r"
-  - delay: 108
-    content: "Sending build context to Docker daemon  3.899MB\r"
-  - delay: 155
-    content: "Sending build context to Docker daemon  6.128MB\r"
-  - delay: 142
-    content: "Sending build context to Docker daemon  7.242MB\r"
-  - delay: 111
-    content: "Sending build context to Docker daemon   9.47MB\r"
-  - delay: 110
-    content: "Sending build context to Docker daemon  15.04MB\r"
-  - delay: 107
-    content: "Sending build context to Docker daemon  20.05MB\r"
-  - delay: 101
-    content: "Sending build context to Docker daemon  25.62MB\r"
-  - delay: 109
-    content: "Sending build context to Docker daemon   31.2MB\r"
-  - delay: 109
-    content: "Sending build context to Docker daemon  36.77MB\r"
-  - delay: 109
-    content: "Sending build context to Docker daemon  41.78MB\r"
-  - delay: 110
-    content: "Sending build context to Docker daemon  47.35MB\r"
-  - delay: 104
-    content: "Sending build context to Docker daemon  50.69MB\r"
-  - delay: 101
-    content: "Sending build context to Docker daemon  55.15MB\r"
-  - delay: 103
-    content: "Sending build context to Docker daemon  59.05MB\r"
-  - delay: 111
-    content: "Sending build context to Docker daemon  64.06MB\r"
-  - delay: 103
-    content: "Sending build context to Docker daemon  68.52MB\r"
-  - delay: 440
-    content: "Sending build context to Docker daemon  72.97MB\r"
-  - delay: 106
-    content: "Sending build context to Docker daemon  77.99MB\r"
-  - delay: 103
-    content: "Sending build context to Docker daemon     83MB\r"
-  - delay: 110
-    content: "Sending build context to Docker daemon  88.57MB\r"
-  - delay: 110
-    content: "Sending build context to Docker daemon  93.59MB\r"
-  - delay: 106
-    content: "Sending build context to Docker daemon  99.16MB\r"
-  - delay: 109
-    content: "Sending build context to Docker daemon  104.7MB\r"
-  - delay: 103
-    content: "Sending build context to Docker daemon  109.7MB\r"
-  - delay: 102
-    content: "Sending build context to Docker daemon  114.8MB\r"
-  - delay: 103
-    content: "Sending build context to Docker daemon  119.2MB\r"
-  - delay: 100
-    content: "Sending build context to Docker daemon  124.8MB\r"
-  - delay: 109
-    content: "Sending build context to Docker daemon  130.9MB\r"
-  - delay: 107
-    content: "Sending build context to Docker daemon  135.9MB\r"
-  - delay: 102
-    content: "Sending build context to Docker daemon  141.5MB\r"
-  - delay: 107
-    content: "Sending build context to Docker daemon  147.1MB\r"
-  - delay: 105
-    content: "Sending build context to Docker daemon  152.1MB\r"
-  - delay: 104
-    content: "Sending build context to Docker daemon  157.1MB\r"
-  - delay: 112
-    content: "Sending build context to Docker daemon  162.1MB\r"
-  - delay: 110
-    content: "Sending build context to Docker daemon  166.6MB\r"
-  - delay: 108
-    content: "Sending build context to Docker daemon    171MB\r"
-  - delay: 104
-    content: "Sending build context to Docker daemon  173.8MB\r"
-  - delay: 102
-    content: "Sending build context to Docker daemon  175.5MB\r"
-  - delay: 119
-    content: "Sending build context to Docker daemon  177.7MB\r"
-  - delay: 165
-    content: "Sending build context to Docker daemon  180.5MB\r"
-  - delay: 108
-    content: "Sending build context to Docker daemon  183.3MB\r"
-  - delay: 178
-    content: "Sending build context to Docker daemon  187.2MB\r"
-  - delay: 104
-    content: "Sending build context to Docker daemon  190.5MB\r"
-  - delay: 111
-    content: "Sending build context to Docker daemon  195.5MB\r"
-  - delay: 8
-    content: "Sending build context to Docker daemon  195.7MB\r\r\r\n"
-  - delay: 47
-    content: "Step 1/7 : FROM node:12-alpine\r\n ---> 7a48db49edbf\r\nStep 2/7 : WORKDIR /\r\n ---> Using cache\r\n ---> 91d4da4a6b80\r\nStep 3/7 : COPY package*.json ./\r\n"
-  - delay: 56
-    content: " ---> Using cache\r\n ---> 1baa5ce86927\r\nStep 4/7 : RUN yarn install\r\n ---> Using cache\r\n ---> bcc643f05f3c\r\nStep 5/7 : COPY . .\r\n"
-  - delay: 544
-    content: " ---> Using cache\r\n ---> 9b5d423062dd\r\nStep 6/7 : EXPOSE 80\r\n ---> Using cache\r\n ---> f8011c51da29\r\nStep 7/7 : ENTRYPOINT [\"time\", \"node\", \"./tefeta.js\"]\r\n ---> Using cache\r\n ---> 97db1a7342b6\r\n"
-  - delay: 187
-    content: "Successfully built 97db1a7342b6\r\n"
-  - delay: 63
-    content: "Successfully tagged pp-tefeta:latest\r\nMBP-de-Andrea:pp-tefeta andreaserrano$ "
-  - delay: 781
-    content: d
-  - delay: 169
-    content: o
-  - delay: 190
-    content: c
-  - delay: 174
-    content: k
-  - delay: 178
-    content: e
-  - delay: 247
-    content: r
-  - delay: 166
-    content: ' '
-  - delay: 259
-    content: r
-  - delay: 164
-    content: u
-  - delay: 258
+  - delay: 191
     content: 'n'
-  - delay: 181
+  - delay: 179
+    content: ' '
+  - delay: 504
+    content: p
+  - delay: 140
+    content: p
+  - delay: 341
+    content: '-'
+  - delay: 307
+    content: t
+  - delay: 538
+    content: e
+  - delay: 219
+    content: f
+  - delay: 204
+    content: e
+  - delay: 213
+    content: t
+  - delay: 265
+    content: a
+  - delay: 315
     content: ' '
   - delay: 560
-    content: p
-  - delay: 152
-    content: p
-  - delay: 211
-    content: '-'
-  - delay: 221
-    content: t
-  - delay: 187
-    content: e
-  - delay: 207
-    content: f
-  - delay: 192
-    content: e
-  - delay: 186
-    content: t
-  - delay: 161
-    content: a
-  - delay: 237
-    content: ' '
-  - delay: 995
-    content: /
-  - delay: 577
-    content: "\b\e[K"
-  - delay: 467
     content: .
-  - delay: 303
+  - delay: 371
     content: /
-  - delay: 613
+  - delay: 355
     content: d
-  - delay: 206
+  - delay: 201
     content: a
-  - delay: 168
+  - delay: 190
     content: t
-  - delay: 169
+  - delay: 138
     content: a
-  - delay: 445
+  - delay: 533
     content: /
-  - delay: 184
+  - delay: 298
     content: m
-  - delay: 145
+  - delay: 363
     content: a
-  - delay: 76
+  - delay: 160
     content: p
-  - delay: 171
+  - delay: 307
     content: s
-  - delay: 370
+  - delay: 368
     content: /
-  - delay: 360
+  - delay: 261
     content: r
-  - delay: 192
+  - delay: 196
     content: e
-  - delay: 186
+  - delay: 182
     content: c
-  - delay: 276
+  - delay: 163
     content: t
-  - delay: 642
+  - delay: 675
     content: .
-  - delay: 980
-    content: '0'
   - delay: 628
+    content: '0'
+  - delay: 432
     content: '8'
-  - delay: 854
+  - delay: 532
     content: .
-  - delay: 330
+  - delay: 790
     content: m
-  - delay: 147
+  - delay: 194
     content: a
-  - delay: 123
+  - delay: 246
     content: p
-  - delay: 479
+  - delay: 275
     content: "\r\n"
-  - delay: 603
-    content: "*****2****************************************\r\n*****.                  **************     ***\r\n*****.******                   ***************\r\n*****.*************       ***********    *****\r\n*****.......*************   ******************\r\n***********.*************      ******    *****\r\n***********.****************** ***************\r\n***********.******************       *********\r\n***********................********       ****\r\n**************************.**********     ****\r\n**************************.*************  ****\r\n**************************........******   ***\r\n*****         *******************.************\r\n************************..........*****    ***\r\n************************.*********************\r\n************************.*****  **************\r\n************************.*********************\r\n***      ******   ******.************   ******\r\n***********  ***********.*********************\r\n***********  ******  ***.***********    ******\r\n****       *************.....*****************\r\n*******          ***  ******.*****************\r\n****************************.*****  **********\r\n*****........................****  ***********\r\n*  **.***************************  ***********\r\n*****.............................************\r\n*********************************1************\r\nreal\t0m 0.05s\r\nuser\t0m 0.03s\r\nsys\t0m 0.01s\r\n"
-  - delay: 501
+  - delay: 601
+    content: "*****2****************************************\r\n*****.                  **************     ***\r\n*****.******                   ***************\r\n*****.*************       ***********    *****\r\n*****.......*************   ******************\r\n***********.*************      ******    *****\r\n***********.****************** ***************\r\n***********.******************       *********\r\n***********................********       ****\r\n**************************.**********     ****\r\n**************************.*************  ****\r\n**************************........******   ***\r\n*****         *******************.************\r\n************************..........*****    ***\r\n************************.*********************\r\n************************.*****  **************\r\n************************.*********************\r\n***      ******   ******.************   ******\r\n***********  ***********.*********************\r\n***********  ******  ***.***********    ******\r\n****       *************.....*****************\r\n*******          ***  ******.*****************\r\n****************************.*****  **********\r\n*****........................****  ***********\r\n*  **.***************************  ***********\r\n*****.............................************\r\n*********************************1************\r\n"
+  - delay: 5
+    content: "real\t0m 0.05s\r\nuser\t0m 0.04s\r\nsys\t0m 0.00s\r\n"
+  - delay: 499
     content: 'MBP-de-Andrea:pp-tefeta andreaserrano$ '
-  - delay: 1359
+  - delay: 1261
     content: "logout\r\n"
