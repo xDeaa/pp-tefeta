@@ -1,4 +1,4 @@
-export default class Maze {
+class Maze {
     constructor(width, height, grid) {
         this.width = width
         this.height = height
@@ -18,25 +18,33 @@ export default class Maze {
             return true
         }
 
+        if (this.isBlocked(x, y)) {
+            return false
+        }
+
         if (!this.isOpen(x, y)) {
             return false
         }
 
         this.setValue(x, y, ".")
         
+        // Top
         if (this.findGoal(x, y + 1)) {
             return true
         }
 
+        // Bottom
+        if (this.findGoal(x, y - 1)) {
+            return true
+        }
+
+        // Right
         if (this.findGoal(x + 1, y)) {
             return true
         }
 
+        // Left
         if (this.findGoal(x - 1, y)) {
-            return true
-        }
-
-        if (this.findGoal(x, y - 1)) {
             return true
         }
 
@@ -44,7 +52,7 @@ export default class Maze {
         return false
     }
 
-    isOutside(x, y) {        
+    isOutside(x, y) {
         if (x >= this.width || x < 0) {
             return true
         }
@@ -65,11 +73,11 @@ export default class Maze {
     }
 
     isOpen(x, y) {
-        if(this.getValue(x,y) == " ") {
+        if (this.getValue(x, y) == " ") {
             return true
         }
 
-        if(this.getValue(x,y) == this.start) {
+        if (this.getValue(x, y) == this.start) {
             return true
         }
 
@@ -81,8 +89,10 @@ export default class Maze {
     }
 
     setValue(x, y, value) {
-        if(this.getValue(x,y) != this.start ) {
+        if (this.getValue(x, y) != this.start) {
             this.grid[y][x] = value
         }
     }
 }
+
+module.exports = Maze;

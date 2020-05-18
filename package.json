@@ -4,11 +4,5 @@
   "main": "index.js",
   "repository": "https://github.com/xDeaa/pp-tefeta.git",
   "author": "xDeaa <andrea_christina@hotmail.fr>",
-  "type": "module",
-  "license": "MIT",
-  "devDependencies": {
-    "@babel/core": "^7.6.2",
-    "@babel/node": "^7.6.2",
-    "@babel/preset-env": "^7.6.2"
-  }
+  "license": "MIT"
 }

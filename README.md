@@ -4,12 +4,21 @@
 
 ## <a name='TOC'>🐼 Summary</a>
 
+* [Run project](#run)
 * [Rules](#rules)
 * [Overview](#overview)
 * [Story](#story)
 * [Postlude](#postlude)
 * [Bonus](#bonus)
 * [Credits](#credits)
+
+## <a name='run'>💻 Run project</a>
+
+#### Using Docker
+
+First, you have to build the image using: `docker build -t pp-tefeta .`
+
+After, run it with: `docker run pp-tefeta ./data/maps/rect.01.map`
 
 ## <a name='overview'>🦊 Rules</a>
 

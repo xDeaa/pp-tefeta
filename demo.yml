@@ -1,0 +1,373 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /Users/andreaserrano/Desktop/pp-tefeta
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 196
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 16
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 449
+    content: "N/A: version \"N/A -> N/A\" is not yet installed.\r\n\r\nYou need to run \"nvm install N/A\" to install it before using it.\r\n\e[?1034hMBP-de-Andrea:pp-tefeta andreaserrano$ "
+  - delay: 824
+    content: d
+  - delay: 201
+    content: o
+  - delay: 262
+    content: c
+  - delay: 309
+    content: k
+  - delay: 240
+    content: e
+  - delay: 235
+    content: r
+  - delay: 125
+    content: ' '
+  - delay: 251
+    content: b
+  - delay: 209
+    content: u
+  - delay: 175
+    content: i
+  - delay: 201
+    content: l
+  - delay: 231
+    content: d
+  - delay: 112
+    content: ' '
+  - delay: 309
+    content: '-'
+  - delay: 239
+    content: t
+  - delay: 167
+    content: ' '
+  - delay: 1108
+    content: p
+  - delay: 301
+    content: p
+  - delay: 570
+    content: '-'
+  - delay: 253
+    content: t
+  - delay: 205
+    content: e
+  - delay: 187
+    content: f
+  - delay: 185
+    content: e
+  - delay: 255
+    content: t
+  - delay: 175
+    content: a
+  - delay: 212
+    content: ' '
+  - delay: 451
+    content: .
+  - delay: 239
+    content: "\r\n"
+  - delay: 443
+    content: "Sending build context to Docker daemon  557.1kB\r"
+  - delay: 108
+    content: "Sending build context to Docker daemon  3.899MB\r"
+  - delay: 155
+    content: "Sending build context to Docker daemon  6.128MB\r"
+  - delay: 142
+    content: "Sending build context to Docker daemon  7.242MB\r"
+  - delay: 111
+    content: "Sending build context to Docker daemon   9.47MB\r"
+  - delay: 110
+    content: "Sending build context to Docker daemon  15.04MB\r"
+  - delay: 107
+    content: "Sending build context to Docker daemon  20.05MB\r"
+  - delay: 101
+    content: "Sending build context to Docker daemon  25.62MB\r"
+  - delay: 109
+    content: "Sending build context to Docker daemon   31.2MB\r"
+  - delay: 109
+    content: "Sending build context to Docker daemon  36.77MB\r"
+  - delay: 109
+    content: "Sending build context to Docker daemon  41.78MB\r"
+  - delay: 110
+    content: "Sending build context to Docker daemon  47.35MB\r"
+  - delay: 104
+    content: "Sending build context to Docker daemon  50.69MB\r"
+  - delay: 101
+    content: "Sending build context to Docker daemon  55.15MB\r"
+  - delay: 103
+    content: "Sending build context to Docker daemon  59.05MB\r"
+  - delay: 111
+    content: "Sending build context to Docker daemon  64.06MB\r"
+  - delay: 103
+    content: "Sending build context to Docker daemon  68.52MB\r"
+  - delay: 440
+    content: "Sending build context to Docker daemon  72.97MB\r"
+  - delay: 106
+    content: "Sending build context to Docker daemon  77.99MB\r"
+  - delay: 103
+    content: "Sending build context to Docker daemon     83MB\r"
+  - delay: 110
+    content: "Sending build context to Docker daemon  88.57MB\r"
+  - delay: 110
+    content: "Sending build context to Docker daemon  93.59MB\r"
+  - delay: 106
+    content: "Sending build context to Docker daemon  99.16MB\r"
+  - delay: 109
+    content: "Sending build context to Docker daemon  104.7MB\r"
+  - delay: 103
+    content: "Sending build context to Docker daemon  109.7MB\r"
+  - delay: 102
+    content: "Sending build context to Docker daemon  114.8MB\r"
+  - delay: 103
+    content: "Sending build context to Docker daemon  119.2MB\r"
+  - delay: 100
+    content: "Sending build context to Docker daemon  124.8MB\r"
+  - delay: 109
+    content: "Sending build context to Docker daemon  130.9MB\r"
+  - delay: 107
+    content: "Sending build context to Docker daemon  135.9MB\r"
+  - delay: 102
+    content: "Sending build context to Docker daemon  141.5MB\r"
+  - delay: 107
+    content: "Sending build context to Docker daemon  147.1MB\r"
+  - delay: 105
+    content: "Sending build context to Docker daemon  152.1MB\r"
+  - delay: 104
+    content: "Sending build context to Docker daemon  157.1MB\r"
+  - delay: 112
+    content: "Sending build context to Docker daemon  162.1MB\r"
+  - delay: 110
+    content: "Sending build context to Docker daemon  166.6MB\r"
+  - delay: 108
+    content: "Sending build context to Docker daemon    171MB\r"
+  - delay: 104
+    content: "Sending build context to Docker daemon  173.8MB\r"
+  - delay: 102
+    content: "Sending build context to Docker daemon  175.5MB\r"
+  - delay: 119
+    content: "Sending build context to Docker daemon  177.7MB\r"
+  - delay: 165
+    content: "Sending build context to Docker daemon  180.5MB\r"
+  - delay: 108
+    content: "Sending build context to Docker daemon  183.3MB\r"
+  - delay: 178
+    content: "Sending build context to Docker daemon  187.2MB\r"
+  - delay: 104
+    content: "Sending build context to Docker daemon  190.5MB\r"
+  - delay: 111
+    content: "Sending build context to Docker daemon  195.5MB\r"
+  - delay: 8
+    content: "Sending build context to Docker daemon  195.7MB\r\r\r\n"
+  - delay: 47
+    content: "Step 1/7 : FROM node:12-alpine\r\n ---> 7a48db49edbf\r\nStep 2/7 : WORKDIR /\r\n ---> Using cache\r\n ---> 91d4da4a6b80\r\nStep 3/7 : COPY package*.json ./\r\n"
+  - delay: 56
+    content: " ---> Using cache\r\n ---> 1baa5ce86927\r\nStep 4/7 : RUN yarn install\r\n ---> Using cache\r\n ---> bcc643f05f3c\r\nStep 5/7 : COPY . .\r\n"
+  - delay: 544
+    content: " ---> Using cache\r\n ---> 9b5d423062dd\r\nStep 6/7 : EXPOSE 80\r\n ---> Using cache\r\n ---> f8011c51da29\r\nStep 7/7 : ENTRYPOINT [\"time\", \"node\", \"./tefeta.js\"]\r\n ---> Using cache\r\n ---> 97db1a7342b6\r\n"
+  - delay: 187
+    content: "Successfully built 97db1a7342b6\r\n"
+  - delay: 63
+    content: "Successfully tagged pp-tefeta:latest\r\nMBP-de-Andrea:pp-tefeta andreaserrano$ "
+  - delay: 781
+    content: d
+  - delay: 169
+    content: o
+  - delay: 190
+    content: c
+  - delay: 174
+    content: k
+  - delay: 178
+    content: e
+  - delay: 247
+    content: r
+  - delay: 166
+    content: ' '
+  - delay: 259
+    content: r
+  - delay: 164
+    content: u
+  - delay: 258
+    content: 'n'
+  - delay: 181
+    content: ' '
+  - delay: 560
+    content: p
+  - delay: 152
+    content: p
+  - delay: 211
+    content: '-'
+  - delay: 221
+    content: t
+  - delay: 187
+    content: e
+  - delay: 207
+    content: f
+  - delay: 192
+    content: e
+  - delay: 186
+    content: t
+  - delay: 161
+    content: a
+  - delay: 237
+    content: ' '
+  - delay: 995
+    content: /
+  - delay: 577
+    content: "\b\e[K"
+  - delay: 467
+    content: .
+  - delay: 303
+    content: /
+  - delay: 613
+    content: d
+  - delay: 206
+    content: a
+  - delay: 168
+    content: t
+  - delay: 169
+    content: a
+  - delay: 445
+    content: /
+  - delay: 184
+    content: m
+  - delay: 145
+    content: a
+  - delay: 76
+    content: p
+  - delay: 171
+    content: s
+  - delay: 370
+    content: /
+  - delay: 360
+    content: r
+  - delay: 192
+    content: e
+  - delay: 186
+    content: c
+  - delay: 276
+    content: t
+  - delay: 642
+    content: .
+  - delay: 980
+    content: '0'
+  - delay: 628
+    content: '8'
+  - delay: 854
+    content: .
+  - delay: 330
+    content: m
+  - delay: 147
+    content: a
+  - delay: 123
+    content: p
+  - delay: 479
+    content: "\r\n"
+  - delay: 603
+    content: "*****2****************************************\r\n*****.                  **************     ***\r\n*****.******                   ***************\r\n*****.*************       ***********    *****\r\n*****.......*************   ******************\r\n***********.*************      ******    *****\r\n***********.****************** ***************\r\n***********.******************       *********\r\n***********................********       ****\r\n**************************.**********     ****\r\n**************************.*************  ****\r\n**************************........******   ***\r\n*****         *******************.************\r\n************************..........*****    ***\r\n************************.*********************\r\n************************.*****  **************\r\n************************.*********************\r\n***      ******   ******.************   ******\r\n***********  ***********.*********************\r\n***********  ******  ***.***********    ******\r\n****       *************.....*****************\r\n*******          ***  ******.*****************\r\n****************************.*****  **********\r\n*****........................****  ***********\r\n*  **.***************************  ***********\r\n*****.............................************\r\n*********************************1************\r\nreal\t0m 0.05s\r\nuser\t0m 0.03s\r\nsys\t0m 0.01s\r\n"
+  - delay: 501
+    content: 'MBP-de-Andrea:pp-tefeta andreaserrano$ '
+  - delay: 1359
+    content: "logout\r\n"

@@ -9,4 +9,4 @@ RUN yarn install
 COPY . .
 
 EXPOSE 80
-ENTRYPOINT ["node", "./tefeta.js"]
+ENTRYPOINT ["time", "node", "./tefeta.js"]

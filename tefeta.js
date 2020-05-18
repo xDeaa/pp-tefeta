@@ -1,11 +1,13 @@
 #!/usr/local/bin/node
-import { readFileSync } from "fs"
-import Maze from "./Maze.js"
+// import { readFileSync } from "fs"
+// import Maze from "./Maze.js"
+const fs = require('fs')
+const Maze = require('./Maze')
 
 const file = process.argv[2];
 
 function readFile(file) {
-    const read = readFileSync(file, "utf8").trim()
+    const read = fs.readFileSync(file, "utf8").trim()
     const lines = read.split("\n");
     let [width, height] = lines[0].split("x")
     
@@ -31,6 +33,7 @@ function readFile(file) {
             break
         }
     }
+    
     const maze = new Maze(width, height, grid)
     maze.findGoal(xStart, yStart)
     const solved = maze.grid.map(line => line.join("")).join("\n")
